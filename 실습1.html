@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>IKEA</title>
+  </head>
+
+  <body>
+    <img src="이케아.jpeg" height="300" alt="이케아" title="이케아">
+    <h3>이케아에 오신것을 환영합니다!</h3>
+    이케아 할인 가구 목록
+    <ol>
+      <li>침대</li>
+      <li>책상</li>
+      <li>조명</li>
+    </ol>
+    이케아 지점 목록
+    <ul>
+      <li>광명</li>
+      <li>고양</li>
+      <li>세종</li>
+    </ul>
+
+    <p>이케아는 다양한 가구들을 판매합니다<br>
+    이케아에서 많이 소비해 주세요!<br></p>
+    <img src="이케아 사진 2.jpg">
+
+    <br><br><a href="이케아 패밀리 가입페이지.html" target=“_blank”><strong>이케아 패밀리에 가입하세요!</strong></a>
+
+    <table border="1">
+      <thead>
+        <tr><th>이름</th> <th>가격</th> <th>혜택</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>IKEA neighborhood</td> <td>5000원/1년</td> <td>모든 가구 5% 할인</td></tr>
+        <tr><td>IKEA famliy</td> <td>9000원/1년</td> <td>모든 가구 15% 할인</td></tr>
+      </tbody>
+      <tfoot>
+        <tr><td colspan="3">고객님 사랑합니다!</td></tr>
+      </tfoot>
+        </table>
+
+      <form action="">
+        <p> 상품명 : <input type="text" name="name"></p>
+        <p>
+          <strong>색상 (단일선택)</strong> <br>
+          흰색 : <input type="radio" name="color" value="white">
+          검은색 : <input type="radio" name="color" value="black">
+          파란색 : <input type="radio" name="color" value="blue">
+        </p>
+        <p>
+            <strong>사이즈 (단일선택) </strong> <br>
+            95 : <input type="radio" name="size" value="95">
+            100 : <input type="radio" name="size" value="100">
+            105 : <input type="radio" name="size" value="105">
+        </p>
+        <p>
+            <strong>추가옵션  (다중선택) </strong> <br>
+            3년 무상 A/s <input type="checkbox" name="servise" value="1">
+            맞춤 주문 서비스 <input type="checkbox" name="servise" value="2">
+            포장서비스 <input type="checkbox" name="servise" value="3">
+        </p>
+        <p> <strong>배송지 : </strong><input type="text" name="address"></p>
+        <p> <strong>배송시 요청사항 : </strong>
+            <textarea cols="50" rows="2">안전하게 배송하세요.</textarea>
+        </p>
+        <p>계좌번호 : <input type="text" name="Acount no."></p>
+        <p>계좌 비밀번호 : <input type="password" name="Acount Pass no."></p>
+        <input type="button" value="완료" onclick="alert('주문이 완료되었습니다.')">
+        <input type="reset">
+      </form>
+  </body>
+</html>
